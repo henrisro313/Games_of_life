@@ -13,6 +13,6 @@ public class Kagome extends AbstractLattice {
 
 	@Override
 	public boolean isInterestingOscillationPeriod(int period) {
-		return period != 2;
+		return period != 2 && period != 3 && period != 4 && period != 5 && period != 7 && period != 8 && period != 9 && period != 10 && period != 32;
 	}
 }
