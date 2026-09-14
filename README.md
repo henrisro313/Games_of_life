@@ -3,3 +3,4 @@ Summary of findings and some of the java code relevant for Game of Life (and ran
 - GenericLife.java contains the basic random search engine
 - GenericLifeGui.java contains the GUI with optional svg export
 - The rest of the java files are helpers and need only be compiled once
+- GoL_evolutionary_Kagome is a self-contained package that contains a symmetry-constrined evolutionary search algorithm that was used to discover a bouncer wall on the Kagome lattice
